@@ -3,9 +3,9 @@
 ## Overview
 This repository contains a collection of Python scripts utilizing PyBGPStream for analyzing BGP routing data, extracting relevant features, and performing graph-based analysis (e.g., AS path frequency). The scripts are designed to assist in understanding BGP routing behaviors, including updates, hijackings, and real-time analysis. Additionally, they provide tools for feature extraction and graphical analysis, allowing users to visualize and interpret the frequency of AS paths and other key metrics within the BGP data.
 
-![BGP Feature Graph](images/googleLeakStat.png)
+![BGP Feature Graph](media/googleLeakStat.png)
 
-![BGP Graph](images/googleLeakGraph.png)
+![BGP Graph](media/googleLeakGraph.png)
 
  **Install PyBGPStream**:
 Visit [PyBGPStream Installation Guide](https://bgpstream.caida.org/docs/install/pybgpstream) for detailed installation instructions.
@@ -23,7 +23,7 @@ Visit [PyBGPStream Installation Guide](https://bgpstream.caida.org/docs/install/
 3. **Real-Time BGP Analysis Script**: `PyBGPStream_real_time.ipynb`
 
     A script designed for real-time analysis of BGP data streams. It can be used to monitor live BGP announcements and withdrawals for research and operational purposes.
-
+media
 4. **BGP Data Analysis and Feature Extraction**: `bgp_data_analysis_feature_extraction.ipynb`
 
 4. **BGP Data Analysis and Feature Extraction**: `bgp_data_analysis_feature_extraction.ipynb`
